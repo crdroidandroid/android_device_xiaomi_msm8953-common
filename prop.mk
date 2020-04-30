@@ -235,6 +235,7 @@ ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.timed.enable=true \
+persist.vendor.delta_time.enable=true \
 persist.delta_time.enable=true
 
 # Tcp
