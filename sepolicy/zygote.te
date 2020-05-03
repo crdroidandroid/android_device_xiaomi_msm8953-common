@@ -1,2 +1,1 @@
 typeattribute zygote data_between_core_and_vendor_violators;
-allow zygote untrusted_app_27:process ptrace;
