@@ -1,2 +1,4 @@
 # Dirac
 persist.audio.dirac.                                          u:object_r:dirac_prop:s0
+
+ro.alarm_boot                                                 u:object_r:vendor_alarm_boot_prop:s0
