@@ -400,6 +400,11 @@ fi
 chmod g-w /data/vendor/modem_config
 setprop ro.vendor.ril.mbn_copy_completed 1
 
+# Yellow LED
+write /sys/class/leds/led:flash_1/max_brightness 0
+write /sys/class/leds/led:torch_1/max_brightness 0
+write /sys/class/leds/torch-light1/max_brightness 0
+
 #check build variant for printk logging
 #current default minimum boot-time-default
 buildvariant=`getprop ro.build.type`
